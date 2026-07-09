@@ -1,0 +1,46 @@
+Entities
+Complete CRUD operations are available for all entity types:
+
+Entity	Create	Get	Update	Delete	Search
+Customer	✅	✅	✅	✅	✅
+Invoice	✅	✅	✅	✅	✅
+Estimate	✅	✅	✅	✅	✅
+Bill	✅	✅	✅	✅	✅
+Vendor	✅	✅	✅	✅	✅
+Employee	✅	✅	✅	✅	✅
+Account	✅	✅	✅	-	✅
+Item	✅	✅	✅	✅	✅
+Journal Entry	✅	✅	✅	✅	✅
+Bill Payment	✅	✅	✅	✅	✅
+Purchase	✅	✅	✅	✅	✅
+Payment	✅	✅	✅	✅	✅
+Sales Receipt	✅	✅	✅	✅	✅
+Credit Memo	✅	✅	✅	✅	✅
+Refund Receipt	✅	✅	✅	✅	✅
+Purchase Order	✅	✅	✅	✅	✅
+Vendor Credit	✅	✅	✅	✅	✅
+Deposit	✅	✅	✅	✅	✅
+Transfer	✅	✅	✅	✅	✅
+Time Activity	✅	✅	✅	✅	✅
+Class	✅	✅	✅	-	✅
+Department	✅	✅	✅	-	✅
+Term	✅	✅	✅	-	✅
+Payment Method	✅	✅	✅	-	✅
+Tax Code	-	✅	-	-	✅
+Tax Rate	-	✅	-	-	✅
+Tax Agency	-	✅	-	-	✅
+Company Info	-	✅	✅	-	-
+Attachable	✅	✅	✅	✅	✅
+Reports
+Report	Tool Name	Description
+Balance Sheet	get_balance_sheet	Assets, liabilities, and equity snapshot
+Profit & Loss	get_profit_and_loss	Income and expenses over a period
+Cash Flow	get_cash_flow	Cash inflows and outflows
+Trial Balance	get_trial_balance	Debit and credit balances
+General Ledger	get_general_ledger	Complete transaction history
+Customer Sales	get_customer_sales	Sales by customer
+Aged Receivables	get_aged_receivables	Outstanding customer invoices
+Aged Receivables Detail	get_aged_receivables_detail	Detailed aging breakdown
+Customer Balance	get_customer_balance	Current customer balances
+Aged Payables	get_aged_payables	Outstanding vendor bills
+Vendor Expenses	get_vendor_expenses	Expenses by vendor
