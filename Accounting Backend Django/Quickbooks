@@ -1,22 +1,3 @@
-# QuickBooks Online MCP Server
-
-<div align="center">
-
-**A comprehensive Model Context Protocol (MCP) server for QuickBooks Online**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Tools](https://img.shields.io/badge/Tools-144-green.svg)](#available-tools)
-[![Entities](https://img.shields.io/badge/Entities-29-orange.svg)](#entities)
-[![Reports](https://img.shields.io/badge/Reports-11-purple.svg)](#reports)
-[![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)](#testing)
-[![Tests](https://img.shields.io/badge/Tests-396-blue.svg)](#testing)
-
-[Quick Start](#quick-start) | [Available Tools](#available-tools) | [Authentication](#authentication) | [Documentation](#documentation)
-
-</div>
-
----
-
 ## Overview
 
 This MCP server provides complete QuickBooks Online API integration for Claude Code and other MCP-compatible clients. It includes full CRUD operations for 29 entity types and 11 financial reports, giving you comprehensive access to QuickBooks Online functionality.
@@ -30,17 +11,7 @@ This MCP server provides complete QuickBooks Online API integration for Claude C
 - **TypeScript** - Full type safety with Zod validation
 - **Tested** - Jest test suite with ESM support
 
-> Note: this is a local MCP server. It runs as a stdio subprocess on the developer's or partner's machine and authenticates to a QuickBooks Online company.
-
-> **Before you start:** This MCP server is easy to run once authenticated, but QuickBooks Online integration is gated by Intuit's OAuth app setup. You must register an app on the [Intuit Developer Portal](https://developer.intuit.com) and complete a one-time, browser-based OAuth handshake. **Sandbox** supports `http://localhost` redirect URIs; **production** requires a public HTTPS callback for the initial authorization. After that initial handshake, the server runs locally without further browser interaction (until the 100-day refresh window lapses). See [Authentication](#authentication) for full details.
-
----
-
-## Quick Start
-
-### Installation
-
-```bash
+> Note: this is a local MCP server. 
 # Clone the repository
 git clone https://github.com/your-username/mcp-quickbooks-online.git
 cd mcp-quickbooks-online
@@ -486,11 +457,7 @@ All tool names must follow the `{verb}_{entity}` convention using underscores. T
 
 New tools that do not follow this convention will not be correctly categorised and may appear or be suppressed unexpectedly.
 
----
 
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
