@@ -1,0 +1,12 @@
+partners.ts
+      |
+      |
+      +--> Google Places ID
+      |
+      +--> POS connector
+      |
+      +--> QuickBooks company tenant
+      |
+      +--> Inventory sync rules
+      |
+      +--> Surplus detection rules
