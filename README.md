@@ -7,15 +7,15 @@ We partner with Grocery stores, Resturants, online food specialty sites, anyplac
 
 What you do:
 
-1.Sign up with your verified student ID. You receive a custom Food ID
+1.Sign up with your verified student ID. You receive a custom Food ID.
 
-2.Get text whenever theres food
+2.Get text whenever theres food nearby.
 
-3.Reserve your spot
+3.Reserve your spot.
 
-4.Pick up your food free of charge
+4.Pick up your food free of charge.
 
-5.New members can join by referral only
+5.New members can join by referral only.
 
 Non-comphrehensive list of partners:
 
