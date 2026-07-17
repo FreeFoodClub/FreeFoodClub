@@ -7,7 +7,7 @@ We partner with Grocery stores, Resturants, online food specialty sites, anyplac
 
 What you do:
 
-1.Sign up with your verified student ID. You receive a custom Food ID.
+1.Sign up with your verified Waterloo student ID. You receive a custom Food ID.
 
 2.Get text whenever theres food nearby.
 
