@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 My Name is Linda!
 I started Free Food Club because I don't like paying for food, and all the stores in the west dining hall were colluding and price-fixing, so I wanted to give people a "free" option.
 
 Free Food Club is an Open Sourced Project designed to give Free Food to all our Campus Members, by partnering F&B businesses near campus.
